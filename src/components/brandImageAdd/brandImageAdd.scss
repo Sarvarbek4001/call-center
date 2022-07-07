@@ -1,0 +1,66 @@
+.add__brand--header {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 2rem;
+  &-btn {
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 81);
+    padding: 0.8rem 1.6rem;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: rgba(0, 0, 81, 0.5);
+    }
+  }
+}
+
+.section__brand-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 50rem;
+  overflow: auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.section__brand-item {
+  position: relative;
+  z-index: 1;
+  width: 20rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.brand--image {
+  border-radius: 4px;
+  width: 20rem;
+}
+.brand__delete-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  z-index: 1;
+  background-color: rgb(0, 0, 81);
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: rgba(0, 0, 81, 0.5);
+  }
+}
+.bi-trash-fill {
+  font-size: 2rem;
+  color: #fff;
+}
+.bi-plus-circle-dotted {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
